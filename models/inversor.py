@@ -1,7 +1,13 @@
-class Inversores:
+class Inversor:
     nombre = ''
-    apellido = ''
-    cartera = []
+    apellido = ',ih'
+
+    # cartera = []
+
+    def __init__(self, nombre, apellido):
+        self.nombre = nombre
+        self.apellido = apellido
+
     @property
     def capital(self):
         return None
@@ -20,3 +26,5 @@ class Inversores:
 
     def vender_stock(self):
         return None
+
+
